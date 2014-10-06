@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface loopback_passportTests : XCTestCase
+@interface loopback_ios_passportTests : XCTestCase
 
 @end
 
-@implementation loopback_passportTests
+@implementation loopback_ios_passportTests
 
 - (void)setUp {
     [super setUp];
