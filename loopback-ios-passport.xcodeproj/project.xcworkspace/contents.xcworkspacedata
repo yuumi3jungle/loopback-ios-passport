@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:loopback-passport.xcodeproj">
+      location = "self:loopback-ios-passport.xcodeproj">
    </FileRef>
 </Workspace>

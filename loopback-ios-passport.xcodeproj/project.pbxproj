@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		1B84017019E2D9ED0083BCB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84016F19E2D9ED0083BCB4 /* main.m */; };
 		1B84017319E2D9ED0083BCB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84017219E2D9ED0083BCB4 /* AppDelegate.m */; };
-		1B84017619E2D9ED0083BCB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84017519E2D9ED0083BCB4 /* ViewController.m */; };
+		1B84017619E2D9ED0083BCB4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84017519E2D9ED0083BCB4 /* MainViewController.m */; };
 		1B84017919E2D9ED0083BCB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B84017719E2D9ED0083BCB4 /* Main.storyboard */; };
 		1B84017B19E2D9ED0083BCB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B84017A19E2D9ED0083BCB4 /* Images.xcassets */; };
 		1B84017E19E2D9ED0083BCB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B84017C19E2D9ED0083BCB4 /* LaunchScreen.xib */; };
 		1B84018A19E2D9ED0083BCB4 /* loopback_passportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84018919E2D9ED0083BCB4 /* loopback_passportTests.m */; };
+		1B84019519E2E4BA0083BCB4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84019419E2E4BA0083BCB4 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B84016A19E2D9ED0083BCB4 /* loopback-passport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "loopback-passport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B84016A19E2D9ED0083BCB4 /* loopback-ios-passport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "loopback-ios-passport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B84016E19E2D9ED0083BCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B84016F19E2D9ED0083BCB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B84017119E2D9ED0083BCB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B84017219E2D9ED0083BCB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B84017419E2D9ED0083BCB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B84017519E2D9ED0083BCB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B84017419E2D9ED0083BCB4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1B84017519E2D9ED0083BCB4 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		1B84017819E2D9ED0083BCB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B84017A19E2D9ED0083BCB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1B84017D19E2D9ED0083BCB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1B84018319E2D9ED0083BCB4 /* loopback-passportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "loopback-passportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B84018319E2D9ED0083BCB4 /* loopback-ios-passportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "loopback-ios-passportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B84018819E2D9ED0083BCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B84018919E2D9ED0083BCB4 /* loopback_passportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loopback_passportTests.m; sourceTree = "<group>"; };
+		1B84019319E2E4BA0083BCB4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1B84019419E2E4BA0083BCB4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +66,8 @@
 		1B84016119E2D9ED0083BCB4 = {
 			isa = PBXGroup;
 			children = (
-				1B84016C19E2D9ED0083BCB4 /* loopback-passport */,
-				1B84018619E2D9ED0083BCB4 /* loopback-passportTests */,
+				1B84016C19E2D9ED0083BCB4 /* loopback-ios-passport */,
+				1B84018619E2D9ED0083BCB4 /* loopback-ios-passportTests */,
 				1B84016B19E2D9ED0083BCB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,24 +75,27 @@
 		1B84016B19E2D9ED0083BCB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B84016A19E2D9ED0083BCB4 /* loopback-passport.app */,
-				1B84018319E2D9ED0083BCB4 /* loopback-passportTests.xctest */,
+				1B84016A19E2D9ED0083BCB4 /* loopback-ios-passport.app */,
+				1B84018319E2D9ED0083BCB4 /* loopback-ios-passportTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B84016C19E2D9ED0083BCB4 /* loopback-passport */ = {
+		1B84016C19E2D9ED0083BCB4 /* loopback-ios-passport */ = {
 			isa = PBXGroup;
 			children = (
 				1B84017119E2D9ED0083BCB4 /* AppDelegate.h */,
 				1B84017219E2D9ED0083BCB4 /* AppDelegate.m */,
-				1B84017419E2D9ED0083BCB4 /* ViewController.h */,
-				1B84017519E2D9ED0083BCB4 /* ViewController.m */,
+				1B84017419E2D9ED0083BCB4 /* MainViewController.h */,
+				1B84017519E2D9ED0083BCB4 /* MainViewController.m */,
+				1B84019319E2E4BA0083BCB4 /* LoginViewController.h */,
+				1B84019419E2E4BA0083BCB4 /* LoginViewController.m */,
 				1B84017719E2D9ED0083BCB4 /* Main.storyboard */,
 				1B84017A19E2D9ED0083BCB4 /* Images.xcassets */,
 				1B84017C19E2D9ED0083BCB4 /* LaunchScreen.xib */,
 				1B84016D19E2D9ED0083BCB4 /* Supporting Files */,
 			);
+			name = "loopback-ios-passport";
 			path = "loopback-passport";
 			sourceTree = "<group>";
 		};
@@ -102,12 +108,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1B84018619E2D9ED0083BCB4 /* loopback-passportTests */ = {
+		1B84018619E2D9ED0083BCB4 /* loopback-ios-passportTests */ = {
 			isa = PBXGroup;
 			children = (
 				1B84018919E2D9ED0083BCB4 /* loopback_passportTests.m */,
 				1B84018719E2D9ED0083BCB4 /* Supporting Files */,
 			);
+			name = "loopback-ios-passportTests";
 			path = "loopback-passportTests";
 			sourceTree = "<group>";
 		};
@@ -122,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B84016919E2D9ED0083BCB4 /* loopback-passport */ = {
+		1B84016919E2D9ED0083BCB4 /* loopback-ios-passport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B84018D19E2D9ED0083BCB4 /* Build configuration list for PBXNativeTarget "loopback-passport" */;
+			buildConfigurationList = 1B84018D19E2D9ED0083BCB4 /* Build configuration list for PBXNativeTarget "loopback-ios-passport" */;
 			buildPhases = (
 				1B84016619E2D9ED0083BCB4 /* Sources */,
 				1B84016719E2D9ED0083BCB4 /* Frameworks */,
@@ -134,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = "loopback-passport";
+			name = "loopback-ios-passport";
 			productName = "loopback-passport";
-			productReference = 1B84016A19E2D9ED0083BCB4 /* loopback-passport.app */;
+			productReference = 1B84016A19E2D9ED0083BCB4 /* loopback-ios-passport.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B84018219E2D9ED0083BCB4 /* loopback-passportTests */ = {
+		1B84018219E2D9ED0083BCB4 /* loopback-ios-passportTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B84019019E2D9ED0083BCB4 /* Build configuration list for PBXNativeTarget "loopback-passportTests" */;
+			buildConfigurationList = 1B84019019E2D9ED0083BCB4 /* Build configuration list for PBXNativeTarget "loopback-ios-passportTests" */;
 			buildPhases = (
 				1B84017F19E2D9ED0083BCB4 /* Sources */,
 				1B84018019E2D9ED0083BCB4 /* Frameworks */,
@@ -152,9 +159,9 @@
 			dependencies = (
 				1B84018519E2D9ED0083BCB4 /* PBXTargetDependency */,
 			);
-			name = "loopback-passportTests";
+			name = "loopback-ios-passportTests";
 			productName = "loopback-passportTests";
-			productReference = 1B84018319E2D9ED0083BCB4 /* loopback-passportTests.xctest */;
+			productReference = 1B84018319E2D9ED0083BCB4 /* loopback-ios-passportTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B84016519E2D9ED0083BCB4 /* Build configuration list for PBXProject "loopback-passport" */;
+			buildConfigurationList = 1B84016519E2D9ED0083BCB4 /* Build configuration list for PBXProject "loopback-ios-passport" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +195,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B84016919E2D9ED0083BCB4 /* loopback-passport */,
-				1B84018219E2D9ED0083BCB4 /* loopback-passportTests */,
+				1B84016919E2D9ED0083BCB4 /* loopback-ios-passport */,
+				1B84018219E2D9ED0083BCB4 /* loopback-ios-passportTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,7 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B84017619E2D9ED0083BCB4 /* ViewController.m in Sources */,
+				1B84019519E2E4BA0083BCB4 /* LoginViewController.m in Sources */,
+				1B84017619E2D9ED0083BCB4 /* MainViewController.m in Sources */,
 				1B84017319E2D9ED0083BCB4 /* AppDelegate.m in Sources */,
 				1B84017019E2D9ED0083BCB4 /* main.m in Sources */,
 			);
@@ -238,7 +246,7 @@
 /* Begin PBXTargetDependency section */
 		1B84018519E2D9ED0083BCB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B84016919E2D9ED0083BCB4 /* loopback-passport */;
+			target = 1B84016919E2D9ED0083BCB4 /* loopback-ios-passport */;
 			targetProxy = 1B84018419E2D9ED0083BCB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -345,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "loopback-passport/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "loopback-ios-passport";
 			};
 			name = Debug;
 		};
@@ -355,7 +363,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "loopback-passport/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "loopback-ios-passport";
 			};
 			name = Release;
 		};
@@ -373,7 +381,7 @@
 				);
 				INFOPLIST_FILE = "loopback-passportTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "loopback-ios-passportTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loopback-passport.app/loopback-passport";
 			};
 			name = Debug;
@@ -388,7 +396,7 @@
 				);
 				INFOPLIST_FILE = "loopback-passportTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "loopback-ios-passportTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loopback-passport.app/loopback-passport";
 			};
 			name = Release;
@@ -396,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B84016519E2D9ED0083BCB4 /* Build configuration list for PBXProject "loopback-passport" */ = {
+		1B84016519E2D9ED0083BCB4 /* Build configuration list for PBXProject "loopback-ios-passport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B84018B19E2D9ED0083BCB4 /* Debug */,
@@ -405,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B84018D19E2D9ED0083BCB4 /* Build configuration list for PBXNativeTarget "loopback-passport" */ = {
+		1B84018D19E2D9ED0083BCB4 /* Build configuration list for PBXNativeTarget "loopback-ios-passport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B84018E19E2D9ED0083BCB4 /* Debug */,
@@ -413,7 +421,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1B84019019E2D9ED0083BCB4 /* Build configuration list for PBXNativeTarget "loopback-passportTests" */ = {
+		1B84019019E2D9ED0083BCB4 /* Build configuration list for PBXNativeTarget "loopback-ios-passportTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B84019119E2D9ED0083BCB4 /* Debug */,

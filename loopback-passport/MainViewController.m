@@ -6,13 +6,14 @@
 //  Copyright (c) 2014年 Yuumi Yoshida. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
+#import "LoginViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,5 +24,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSLog(@"--- login");
+}
+
 
 @end

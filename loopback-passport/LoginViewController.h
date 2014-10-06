@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoginViewController.h
 //  loopback-passport
 //
 //  Created by Yuumi Yoshida on 2014/10/06.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LoginViewController : UIViewController  <UIWebViewDelegate>
 
 @end
-
